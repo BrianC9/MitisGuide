@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mitis Guide - Un mundo por descubrir - Agencia de viajes</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="planeicon.png" alt="Logotipo de mitisguide" />
+        <p>Mitis<span>Guide</span></p>
+      </div>
+      <nav>
+        <ul>
+          <a href="#"><li>Cultura</li></a>
+          <a href="#"><li>Visitas</li></a>
+          <a href="#"><li>Viajes</li></a>
+          <li>
+            <form class="buscador-cabecera">
+              <input type="text" placeholder="BUSCAR 🔎" />
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="titulo-centrado">Mitis<span>Guide</span></h1>
+    <h2 class="titulo-centrado">Un mundo por descubrir</h2>
+    <img class="mapamundi-img" src="mapa.png" alt="mapa" usemap="#turismo" />
+    <map name="turismo">
+      <area shape="rect" coords="804,539,761,493" href="#" alt="D.Zahara" />
+      <area
+        shape="rect"
+        coords="707,366,855,294"
+        href="#"
+        alt="R.Escandinava"
+      />
+      <area shape="rect" coords="716,387,733,404" href="#" alt="P.Laguna" />
+      <area shape="rect" coords="761,401,793,433" href="#" alt="Grecia" />
+      <area shape="rect" coords="741,405,763,391" href="#" alt="Eslovenia" />
+      <area shape="rect" coords="760,399,782,427" href="#" alt="Montenegro" />
+    </map>
+    <h3 class="titulo-centrado titulo-ofertas">
+      Conoce los viajes que tenemos en oferta
+    </h3>
+    <div class="ofertas-container">
+      <div class="oferta">
+        <h4>Escandinavia</h4>
+        <img src="fiordos.jpg" alt="Foto de Escandinavia" />
+
+        <a href="escandinavia.html"> <p class="btn-reservar">Reservar</p></a>
+      </div>
+      <div class="oferta">
+        <h4>Sahara</h4>
+        <img src="sahara.jpg" alt="Foto del desierto del Sahara" />
+        <a href="sahara.html"> <p class="btn-reservar">Reservar</p></a>
+      </div>
+
+      <div class="oferta">
+        <h4>Laguna</h4>
+        <img src="laguna.jpg" alt="Foto de una laguna" />
+        <a href="laguna.html"> <p class="btn-reservar">Reservar</p></a>
+      </div>
+      <div class="oferta">
+        <h4>Balcanes</h4>
+        <img src="balcanes.jpg" alt="Foto de los balcanes" />
+        <a href="balcanes.html"> <p class="btn-reservar">Reservar</p></a>
+      </div>
+    </div>
+    <h3 class="titulo-centrado">Opiniones de otros viajeros</h3>
+    <div class="opiniones-container">
+      <div class="opinion">
+        <p class="nombre-opinion">Antoine</p>
+        <div class="flex-foto-comentario">
+          <img src="jose.jpg" alt="Foto personal de Jose" />
+          <q class="comentario-opinion">
+            Estuve en Escandinavia y no pude haber disfrutado más de la
+            experiencia. El viaje que organiza el equipo de MitisGuide es
+            completo y tiene diferentes actividades.
+          </q>
+        </div>
+      </div>
+      <div class="opinion">
+        <p class="nombre-opinion">Carlos</p>
+        <div class="flex-foto-comentario">
+          <img src="carlos.jpg" alt="Foto personal de Jose" />
+          <q class="comentario-opinion">
+            Estuve en Escandinavia y no pude haber disfrutado más de la
+            experiencia. El viaje que organiza el equipo de MitisGuide es
+            completo y tiene diferentes actividades.
+          </q>
+        </div>
+      </div>
+      <div class="opinion">
+        <p class="nombre-opinion">Bridget</p>
+        <div class="flex-foto-comentario">
+          <img src="cris.jpg" alt="Foto personal de Jose" />
+          <q class="comentario-opinion">
+            Estuve en Escandinavia y no pude haber disfrutado más de la
+            experiencia. El viaje que organiza el equipo de MitisGuide es
+            completo y tiene diferentes actividades.
+          </q>
+        </div>
+      </div>
+      <div class="opinion">
+        <p class="nombre-opinion">Jack</p>
+        <div class="flex-foto-comentario">
+          <img src="antonio.jpg" alt="Foto personal de Jose" />
+          <q class="comentario-opinion">
+            Estuve en Escandinavia y no pude haber disfrutado más de la
+            experiencia. El viaje que organiza el equipo de MitisGuide es
+            completo y tiene diferentes actividades.
+          </q>
+        </div>
+      </div>
+    </div>
+    <h3 class="titulo-centrado titulo-ofertas">
+      Suscríbete a nuestra newsletter para no perderte nada
+    </h3>
+    <div class="formulario-newsletter">
+      <form action="#" method="get">
+        <div>
+          <div>
+            <label for="fname">Nombre</label>
+            <input
+              type="text"
+              id="fname"
+              placeholder="Escribe aquí tu nombre"
+            />
+          </div>
+        </div>
+        <div>
+          <div>
+            <label for="femail">Email</label>
+            <input
+              type="email"
+              id="femail"
+              placeholder="Escribe aquí tu email: nombre@email.com"
+            />
+          </div>
+        </div>
+        <div>
+          <div>
+            <label for="fcheck"
+              ><input type="checkbox" name="fcheck" id="fcheck" /> Acepto las
+              políticas de privacidad y quiero recibir ofertas mensuales</label
+            >
+          </div>
+        </div>
+        <div>
+          <input type="submit" value="Suscribirme" class="boton" />
+        </div>
+      </form>
+    </div>
+    <h3 class="titulo-centrado titulo-ofertas">Preguntas frecuentes (FAQ)</h3>
+    <div class="preguntas-container">
+      <details>
+        <summary>
+          ¿Con cuantos dias de anticipacion puedo hacer la reserva?
+        </summary>
+        <p>No existe fecha minima, lo puedes hacer cuando quieras.</p>
+      </details>
+      <details>
+        <summary>¿La reserva incluye alojamiento?</summary>
+        <p>
+          Si, todos nuestros productos incluyen: Vuelos de ida y vuelta,
+          alojamiento y actividades en el lugar de destino
+        </p>
+      </details>
+      <details>
+        <summary>¿Existe devolucion en caso de cancelacion de reserva?</summary>
+        <p>
+          En caso de que se cancele la reserva con un anticipado maximo de un
+          dia se le devuelve monto
+        </p>
+      </details>
+      <details>
+        <summary>¿Puedo viajar con mascotas?</summary>
+        <p>
+          Si, puedes viajar con mascotas. Trabajamos con alojamientos y
+          compañias aéreas pet-friendly.
+        </p>
+      </details>
+    </div>
+    <footer>
+      <div class="footer-1">
+        <div class="columna-footer">
+          <ul>
+            <li><strong>My-city</strong></li>
+            <li><a href="#">Guia turistica</a></li>
+            <li><a href="#">Hoteles</a></li>
+            <li><a href="#">Apartamentos</a></li>
+            <li><a href="">Alquiler de coches</a></li>
+            <li><a href="#">Vuelos</a></li>
+          </ul>
+        </div>
+
+        <div class="columna-footer">
+          <ul>
+            <li><strong>Mitisguid</strong></li>
+            <li><a href="#">destinos</a></li>
+            <li><a href="#">Guias de Viajes</a></li>
+            <li><a href="#">Quienes somos</a></li>
+            <li><a href="#">Magazine</a></li>
+            <li><a href="#">Prensa</a></li>
+          </ul>
+        </div>
+
+        <div class="columna-footer">
+          <ul>
+            <li><strong>Soporte</strong></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Condiciones generales</a></li>
+            <li><a href="#">Aviso legal</a></li>
+            <li><a href="#">Politica de privacidad</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+        </div>
+
+        <div class="columna-footer">
+          <ul>
+            <li><strong>Trabaja con nosotros</strong></li>
+            <li><a href="#">Proveedores</a></li>
+            <li><a href="#">Afiliados</a></li>
+            <li><a href="#">Agencia de viajes</a></li>
+            <li><a href="#">Alojamientos</a></li>
+            <li><a href="#">Empleos</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-2">
+        <div class="redes">
+          <div>
+            <img src="twitter.png" />
+          </div>
+          <div>
+            <img src="instagram.png" />
+          </div>
+          <div>
+            <img src="facebook.png" />
+          </div>
+        </div>
+
+        <div class="pagos">
+          <div>
+            <img src="visa.png" />
+          </div>
+          <div>
+            <img src="mastercad.png" />
+          </div>
+          <div>
+            <img src="paypal.png" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
