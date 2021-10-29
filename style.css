@@ -95,7 +95,8 @@ h2.titulo-centrado {
 .mapamundi-img {
   display: block;
   margin: auto;
-  width: 100%;
+  width: 1000px;
+  height: 667px ;
 }
 
 .ofertas-container {
@@ -183,6 +184,9 @@ h2.titulo-centrado {
   padding: 13px;
   padding-left: 26px;
 }
+.preguntas-container summary:hover{
+  cursor: pointer;
+}
 .preguntas-container p {
   background-color: rgb(233, 233, 233);
   padding: 1rem;
@@ -198,14 +202,17 @@ h2.titulo-centrado {
   font-size: 48px;
 }
 .producto-titulo h2 {
-  font-size: 24px;
+  
   margin-top: 10px;
   font-weight: 500;
 }
 .producto {
+  margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
   padding: 20px;
+  max-width: 1200px;
 }
 .imagen-producto {
   float: left;
@@ -220,13 +227,14 @@ h2.titulo-centrado {
 .descripcion-producto {
   color: white;
   background-color: #348383;
-  width: fit-content;
-  height: fit-content;
+  max-width: 400px;
+  max-height: 400px;
+  overflow:initial;
   padding: 40px;
 }
 
 .producto .descripcion-producto h2 {
-  font-size: large;
+ 
   font-weight: 500;
   color: #ffc700;
 }
@@ -288,7 +296,7 @@ footer {
 }
 footer .columna-footer ul li {
   list-style-type: none;
-  line-height: 1.5;
+  
 }
 footer .columna-footer ul li a {
   text-decoration: none;
