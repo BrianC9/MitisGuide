@@ -1,6 +1,6 @@
 <h1 >Proyecto colaborativo para la asignatura de Lenguajes de Marcado + Desarrollo web en entorno eservidor </h1>
-<h2>Vista online</h2>
-<a href="https://mitisguide.vercel.app/">MitisGuide 🌍✈</a>
+<h2>Proyecto online en: </h2>
+<a href="https://mitisguide.vercel.app/">  > MitisGuide 🌍✈</a>
 <ul>
 <h3>Autores:</h3>
 
