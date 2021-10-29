@@ -206,7 +206,7 @@ h2.titulo-centrado {
   font-size: 48px;
 }
 .producto-titulo h2 {
-  
+  font-weight: 500;
   margin-top: 10px;
   font-weight: 500;
 }
